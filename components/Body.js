@@ -15,7 +15,7 @@ export default function Body() {
                 <h4 class="header-subtitle" >Hello, I am</h4>
                 <h1 class="header-title">Sanat</h1>
                 <h6 class="header-mono" >Full Stack Developer</h6>
-                <a class="btn btn-primary btn-rounded" href="" download><i class="ti-printer pr-2" ></i>Print Resume</a>
+                <a class="btn btn-primary btn-rounded" href="/resume.pdf" target="_blank" rel="noopener noreferrer" download><i class="ti-printer pr-2" ></i>Print Resume</a>
             </div>
         </div>
     </header>
@@ -52,7 +52,7 @@ export default function Body() {
                 <span class="line mb-5"></span>
                 <h5 class="mb-3">A Web Designer / Developer Located In India</h5>
                 <p class="mt-20">Excited to make your product a better version of itself</p>
-                <a class="btn btn-outline-danger" href="assets/resume/Sanat Pawar Resume recent.pdf" download><i class="icon-down-circled2 "></i>Download My CV</a>
+                <a class="btn btn-outline-danger" href="/resume.pdf" download><i class="icon-down-circled2 "></i>Download My CV</a>
             </div>
 
             <div class="col-lg-4 about-card">
@@ -109,7 +109,7 @@ export default function Body() {
                     <div class="card scrollable-card">
                         <div class="card-header">
                             <div class="mt-2">
-                                <h4>Education</h4>
+                                <h4>Projects</h4>
                                 <span class="line"></span>  
                             </div>
                         </div>
@@ -220,7 +220,7 @@ export default function Body() {
                 <div class="col-lg-2">
                     <div class="row ">
                         <div class="col-10 text-right text-light py-3">
-                            <div class="m-auto"><img src="assets/imgs/atom.png" alt="" class="img-fluid w-100"/></div>
+                            <div class="m-auto"><img src="/atom.png" alt="" class="img-fluid w-100"/></div>
                         </div>
                         
                     </div>
@@ -228,7 +228,7 @@ export default function Body() {
                 <div class="col-md-6 col-lg-2">
                     <div class="row ">
                         <div class="col-10 text-right text-light py-3">
-                            <div class="m-auto"><img src="assets/imgs/django.png" alt="" class="img-fluid w-100"/></div>
+                            <div class="m-auto"><img src="/django.png" alt="" class="img-fluid w-100"/></div>
                         </div>
                         
                     </div>
@@ -236,7 +236,7 @@ export default function Body() {
                 <div class="col-md-6 col-lg-2">
                     <div class="row ">
                         <div class="col-10 text-right text-light py-3">
-                            <div class="m-auto"><img src="assets/imgs/docker.png" alt="" class="img-fluid w-100"/></div>
+                            <div class="m-auto"><img src="/docker.png" alt="" class="img-fluid w-100"/></div>
                         </div>
                         
                     </div>
@@ -244,7 +244,7 @@ export default function Body() {
                 <div class="col-md-6 col-lg-2">
                     <div class="row ">
                         <div class="col-10 text-right text-light py-3">
-                            <div class="m-auto"><img src="assets/imgs/mern.png" alt="" class="img-fluid w-100"/></div>
+                            <div class="m-auto"><img src="/mern.png" alt="" class="img-fluid w-100"/></div>
                         </div>
                         
                     </div>
@@ -252,7 +252,7 @@ export default function Body() {
                 <div class="col-md-6 col-lg-2">
                     <div class="row ">
                         <div class="col-10 text-right text-light py-3">
-                            <div class="m-auto"><img src="assets/imgs/kuber.png" alt="" class="img-fluid w-100"/></div>
+                            <div class="m-auto"><img src="/kuber.png" alt="" class="img-fluid w-100"/></div>
                         </div>
                         
                     </div>
@@ -260,7 +260,7 @@ export default function Body() {
                 <div class="col-md-6 col-lg-2">
                     <div class="row ">
                         <div class="col-10 text-right text-light py-3">
-                            <div class="m-auto"><img src="assets/imgs/js.png" alt="" class="img-fluid w-100"/></div>
+                            <div class="m-auto"><img src="/js.png" alt="" class="img-fluid w-100"/></div>
                         </div>
                         
                     </div>

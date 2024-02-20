@@ -21,9 +21,6 @@ export default function Body() {
     </header>
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
         <div class="container">
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
             <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
@@ -37,8 +34,9 @@ export default function Body() {
                     </li>
                 </ul>
                 <ul class="navbar-nav brand">
+                    <img src="/avatar.jpg" alt="" class="brand-img" />
                     <li class="brand-txt">
-                        <h5 class="brand-title">Sanat</h5>
+                        <h5 class="brand-title">John Doe</h5>
                         <div class="brand-subtitle">Web Designer | Developer</div>
                     </li>
                 </ul>

@@ -1,33 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
 
 export default function Body() {
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        message: ''
-    });
-
-    const inputRef = useRef();
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        const value = inputRef.current.value;
-        console.log(formData);
-        // You can perform additional logic here, such as sending the form data to an API
-    };
-
-    const handleInputChange = (e) => {
-        const { name, value } = e.target;
-        setFormData(prevState => ({
-            ...prevState,
-            [name]: value
-        }));
-    };
-
-    useEffect(() => {
-        console.log(formData);
-    }, [formData]);
-
+    
   return (
     <>
       <header class="header">
@@ -302,15 +275,20 @@ export default function Body() {
                 <div class="col-lg-8">
                     <div class="contact-form-card">
                         <h4 class="contact-title">Send a message</h4>
-                        <form id="addForm" onSubmit={handleSubmit} noValidate>
+                        <form data-netlify="true"
+                            data-netlify-honeypot="bot-field"
+                            name="feedback"
+                            method="POST"
+                            action="/">
                         <div class="form-group">
-                            <input class="form-control" name="name" id="name" type="text" maxLength="40" placeholder="Name *" onChange={handleInputChange} ref={inputRef} />
+                         <input type="hidden" name="form-name" value="feedback" />
+                            <input class="form-control" name="name" id="name" type="text" maxLength="40" placeholder="Name *" />
                         </div>
                         <div class="form-group">
-                            <input class="form-control" name="email" id="email" type="email" maxLength="40" placeholder="Email *" required onChange={handleInputChange} ref={inputRef}/>
+                            <input class="form-control" name="email" id="email" type="email" maxLength="40" placeholder="Email *"/>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" name="message" id="message" maxLength="1000" placeholder="Message *" rows="7" required onChange={handleInputChange} ref={inputRef}></textarea>
+                            <textarea class="form-control" name="message" id="message" maxLength="1000" placeholder="Message *" rows="7" required></textarea>
                         </div>
                         <div class="form-group">
                             <button type="submit" class="form-control btn btn-primary">Send Message</button>

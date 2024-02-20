@@ -122,7 +122,7 @@ export default function Body() {
                             <hr/>
                             <h6 class="title text-danger">FOND Food Pre-ordering app (HackMIT Workathon)</h6>
                             <p>Html,CSS,javasc</p>
-                            <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</p>
+                            <p class="subtitle">Created this website using HTMl CSS and JS as a hackathon project and won runnerup price</p>
                         </div>
                     </div>
                 </div>
